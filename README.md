@@ -62,14 +62,26 @@
 - **Listar archivos**  
   ```bash
   ls
+  ```
+  Lista simple de archivos.
+   
+   ```bash
   ls -la
   ```
+  Lista de archivos detallada, con directorios ocultos y propiedades. 
 - **Navegar entre carpetas**  
   ```bash
-  cd ruta/a/carpeta 
+  cd ruta/a/carpeta
+  ```
+  Ir a la ruta de una carpeta.
+  ```bash
   cd ..
+  ```
+  Retrocede un nivel en el directorio. 
+  ```bash
   cd ~
   ```
+  Ir al directorio raíz. 
 - **Mostrar ruta actual**  
   ```bash
   pwd
@@ -78,25 +90,42 @@
   ```bash
   mkdir proyecto
   touch archivo.txt
+  ```
+  Crear un nuevo directorio `mkdir` o archivo `touch`. 
+  ```bash
   rm archivo.txt
   rm -r carpeta
   ```
+  Eliminar un archivo `rm` o carpeta con su contenido `rm -r`.
 - **Copiar y mover**  
   ```bash
   cp origen destino
   mv origen destino
   ```
 - **Visualizar contenido**  
-  ```bash
-  cat archivo.txt
-  less archivo.txt
-  head -n 10 archivo.txt
-  tail -n 10 archivo.txt
-  ```
+   ```bash
+   cat archivo.txt
+   ```
+   Muestra el contenido completo del archivo en terminal.
+
+   ```bash
+   less archivo.txt
+   ```
+   Visualizador interactivo para navegar por el archivo.
+
+   ```bash
+   head -n 10 archivo.txt
+   ```
+   Muestra únicamente las primeras 10 líneas del archivo.
+
+   ```bash
+   tail -n 10 archivo.txt
+   ```
+   Muestra únicamente las últimas 10 líneas del archivo.
 
 ---
 
-## 🔄 4. Flujo de trabajo básico de Git (solo rama **main**)
+## 🔄 4. Flujo de trabajo básico de Git (sólo rama **main**)
 
 1. **Inicializar repositorio**  
    ```bash
@@ -235,16 +264,16 @@
 
 ## ✅ 7. Buenas prácticas y recomendaciones
 
-- Commits atómicos.  
-- Mensajes claros y en imperativo.  
-- Uso de `.gitignore`.  
-- Protección de la rama `main`.  
-- Sincronización frecuente con `pull --rebase`.
+   - Commits atómicos.  
+   - Mensajes claros y en imperativo.  
+   - Uso de `.gitignore`.  
+   - Protección de la rama `main`.  
+   - Sincronización frecuente con `pull --rebase`.
 
 ---
 ## 💡8. Utilidades Adicionales
 
-- [Documentación de Git](https://git-scm.com/doc)
-- [Vídeo Guía Recomendado](https://www.youtube.com/watch?v=mBYSUUnMt9M)
+   - [Documentación de Git](https://git-scm.com/doc)
+   - [Vídeo Guía Recomendado](https://www.youtube.com/watch?v=mBYSUUnMt9M)
 
 ---
